@@ -1,0 +1,7 @@
+# CoreLocationUserTracking
+CoreLocation UserTracking
+
+**Corelocation UserTracking**
+>CoreLocationによる位置情報の取得とユーザートラッキング
+>マップキットによる位置情報の表示
+>歩行者に対する安全支援を行うためにアプリから交通事故情報などを位置情報からロケーション通知で通知を行うものを目的とした開発プロジェクト
