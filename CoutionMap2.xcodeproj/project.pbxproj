@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C48F796A866555462F05670 /* Pods_CoutionMap2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114C14A61C2FDEB855B9EE94 /* Pods_CoutionMap2.framework */; };
+		81F0D53223D99CDB007B4C50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81F0D53123D99CDB007B4C50 /* GoogleService-Info.plist */; };
 		8F23BA5F23584CBE00444ED0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F23BA5E23584CBE00444ED0 /* CoreLocation.framework */; };
 		8F23BA6123584CC700444ED0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F23BA6023584CC700444ED0 /* MapKit.framework */; };
 		8F3AFCC423570FCE00CDD3F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCC323570FCE00CDD3F7 /* AppDelegate.swift */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005565DB731AC7ABAAE86310 /* Pods-CoutionMap2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoutionMap2.debug.xcconfig"; path = "Target Support Files/Pods-CoutionMap2/Pods-CoutionMap2.debug.xcconfig"; sourceTree = "<group>"; };
+		114C14A61C2FDEB855B9EE94 /* Pods_CoutionMap2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoutionMap2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79346147BC8DE22085E0ECB4 /* Pods-CoutionMap2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoutionMap2.release.xcconfig"; path = "Target Support Files/Pods-CoutionMap2/Pods-CoutionMap2.release.xcconfig"; sourceTree = "<group>"; };
+		81F0D53123D99CDB007B4C50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8F23BA5E23584CBE00444ED0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8F23BA6023584CC700444ED0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8F3AFCC023570FCE00CDD3F7 /* CoutionMap2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoutionMap2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +43,7 @@
 			files = (
 				8F23BA6123584CC700444ED0 /* MapKit.framework in Frameworks */,
 				8F23BA5F23584CBE00444ED0 /* CoreLocation.framework in Frameworks */,
+				1C48F796A866555462F05670 /* Pods_CoutionMap2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,7 @@
 			children = (
 				8F23BA6023584CC700444ED0 /* MapKit.framework */,
 				8F23BA5E23584CBE00444ED0 /* CoreLocation.framework */,
+				114C14A61C2FDEB855B9EE94 /* Pods_CoutionMap2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -58,6 +66,7 @@
 				8F3AFCC223570FCE00CDD3F7 /* CoutionMap2 */,
 				8F3AFCC123570FCE00CDD3F7 /* Products */,
 				8F23BA5D23584CBE00444ED0 /* Frameworks */,
+				D7DC3C6543F93B0E17DE9996 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,8 +88,19 @@
 				8F3AFCCC23570FCF00CDD3F7 /* Assets.xcassets */,
 				8F3AFCCE23570FCF00CDD3F7 /* LaunchScreen.storyboard */,
 				8F3AFCD123570FCF00CDD3F7 /* Info.plist */,
+				81F0D53123D99CDB007B4C50 /* GoogleService-Info.plist */,
 			);
 			path = CoutionMap2;
+			sourceTree = "<group>";
+		};
+		D7DC3C6543F93B0E17DE9996 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				005565DB731AC7ABAAE86310 /* Pods-CoutionMap2.debug.xcconfig */,
+				79346147BC8DE22085E0ECB4 /* Pods-CoutionMap2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F3AFCD423570FCF00CDD3F7 /* Build configuration list for PBXNativeTarget "CoutionMap2" */;
 			buildPhases = (
+				A2743BC5EDA6A3C63D253F44 /* [CP] Check Pods Manifest.lock */,
 				8F3AFCBC23570FCE00CDD3F7 /* Sources */,
 				8F3AFCBD23570FCE00CDD3F7 /* Frameworks */,
 				8F3AFCBE23570FCE00CDD3F7 /* Resources */,
+				C332BF134397C5FCD205ECAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,12 +164,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F3AFCD023570FCF00CDD3F7 /* LaunchScreen.storyboard in Resources */,
+				81F0D53223D99CDB007B4C50 /* GoogleService-Info.plist in Resources */,
 				8F3AFCCD23570FCF00CDD3F7 /* Assets.xcassets in Resources */,
 				8F3AFCCB23570FCE00CDD3F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2743BC5EDA6A3C63D253F44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoutionMap2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C332BF134397C5FCD205ECAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoutionMap2/Pods-CoutionMap2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoutionMap2/Pods-CoutionMap2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoutionMap2/Pods-CoutionMap2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F3AFCBC23570FCE00CDD3F7 /* Sources */ = {
@@ -298,6 +363,7 @@
 		};
 		8F3AFCD523570FCF00CDD3F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005565DB731AC7ABAAE86310 /* Pods-CoutionMap2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,6 +382,7 @@
 		};
 		8F3AFCD623570FCF00CDD3F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79346147BC8DE22085E0ECB4 /* Pods-CoutionMap2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
