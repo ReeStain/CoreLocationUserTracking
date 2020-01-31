@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C48F796A866555462F05670 /* Pods_CoutionMap2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114C14A61C2FDEB855B9EE94 /* Pods_CoutionMap2.framework */; };
+		810DD0A023E446A6009F127A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DD09F23E446A6009F127A /* LocationManager.swift */; };
 		81F0D53223D99CDB007B4C50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81F0D53123D99CDB007B4C50 /* GoogleService-Info.plist */; };
 		8F23BA5F23584CBE00444ED0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F23BA5E23584CBE00444ED0 /* CoreLocation.framework */; };
 		8F23BA6123584CC700444ED0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F23BA6023584CC700444ED0 /* MapKit.framework */; };
@@ -23,6 +24,7 @@
 		005565DB731AC7ABAAE86310 /* Pods-CoutionMap2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoutionMap2.debug.xcconfig"; path = "Target Support Files/Pods-CoutionMap2/Pods-CoutionMap2.debug.xcconfig"; sourceTree = "<group>"; };
 		114C14A61C2FDEB855B9EE94 /* Pods_CoutionMap2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoutionMap2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79346147BC8DE22085E0ECB4 /* Pods-CoutionMap2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoutionMap2.release.xcconfig"; path = "Target Support Files/Pods-CoutionMap2/Pods-CoutionMap2.release.xcconfig"; sourceTree = "<group>"; };
+		810DD09F23E446A6009F127A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		81F0D53123D99CDB007B4C50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8F23BA5E23584CBE00444ED0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8F23BA6023584CC700444ED0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -84,6 +86,7 @@
 				8F3AFCC323570FCE00CDD3F7 /* AppDelegate.swift */,
 				8F3AFCC523570FCE00CDD3F7 /* SceneDelegate.swift */,
 				8F3AFCC723570FCE00CDD3F7 /* ViewController.swift */,
+				810DD09F23E446A6009F127A /* LocationManager.swift */,
 				8F3AFCC923570FCE00CDD3F7 /* Main.storyboard */,
 				8F3AFCCC23570FCF00CDD3F7 /* Assets.xcassets */,
 				8F3AFCCE23570FCF00CDD3F7 /* LaunchScreen.storyboard */,
@@ -99,7 +102,6 @@
 				005565DB731AC7ABAAE86310 /* Pods-CoutionMap2.debug.xcconfig */,
 				79346147BC8DE22085E0ECB4 /* Pods-CoutionMap2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -219,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810DD0A023E446A6009F127A /* LocationManager.swift in Sources */,
 				8F3AFCC823570FCE00CDD3F7 /* ViewController.swift in Sources */,
 				8F3AFCC423570FCE00CDD3F7 /* AppDelegate.swift in Sources */,
 				8F3AFCC623570FCE00CDD3F7 /* SceneDelegate.swift in Sources */,
