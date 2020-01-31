@@ -9,7 +9,12 @@ import CoreLocation
 import Foundation
 
 class LocationManager:NSObject, CLLocationManagerDelegate {
+    
     var locationManager: CLLocationManager!
+    
+    init(locationManager: CLLocationManager) {
+        self.locationManager = locationManager
+    }
     
     func setupLocationManager(){
            //CLLocationMangerをインスタンス化
@@ -32,4 +37,5 @@ class LocationManager:NSObject, CLLocationManagerDelegate {
                    break
                }
            }
+    }
 }
