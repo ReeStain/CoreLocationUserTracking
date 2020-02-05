@@ -9,13 +9,13 @@ import CoreLocation
 import Foundation
 
 class LocationManager:NSObject, CLLocationManagerDelegate {
-    
+    // MARK:
     var locationManager: CLLocationManager!
-    
+    // MARK: Initialize
     init(locationManager: CLLocationManager) {
         self.locationManager = locationManager
     }
-    
+    // MARK: Method
     func setupLocationManager(){
            //CLLocationMangerをインスタンス化
            locationManager = CLLocationManager()

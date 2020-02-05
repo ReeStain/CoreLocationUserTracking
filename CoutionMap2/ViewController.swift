@@ -23,7 +23,9 @@ class ViewController: UIViewController,CLLocationManagerDelegate,UNUserNotificat
         initMap()
    
     }
-    
+
+    // MARK: method
+        // TODO: クラス別ファイル化作業中あとで消す部分
     func setupLocationManager(){
         //CLLocationMangerをインスタンス化
         locationManager = CLLocationManager()
